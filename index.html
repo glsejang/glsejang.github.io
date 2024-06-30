@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div>
+        <h1 id="greeting" class="hidden"></h1>
+        <form class="hidden" id="login-form" action="">
+            <input required maxlength="15" type="text" placeholder="What is your name">
+            <input type="submit" value="Log in">       
+        </form>
+        </div>
+        <h2 class="clock">00:00</h2>
+        
+        <div class="weather">
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <main>
+        <h1>To Do</h1>
+        <form id="todo-form"  action="">
+            <input type="text" placeholder="   Write Your To do list" name="todotext" id="">
+        </form>
+        <ul id="todo-list">
+
+        </ul>
+        
+
+
+
+    </main>
+    <div id="routine"></div>
+    <aside>
+        <div id="calendar"> </div>
+    </aside>
+   
+
+
+
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.14/index.global.min.js'></script>
+    <script src="js/1.js"></script>
+    <script src="js/clock&weather.js"></script>
+    <script src="js/bg.js"></script>
+    <script src="js/todo.js"></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+body {
+    margin: 0 auto;
+    font-family: 'TheJamsil5Bold';
+    display: grid;
+    background-color: gray;
+    width: auto;
+    height: 100vh;
+    gap: 10px; 
+    grid-template: 1fr 3fr/ 1fr 1fr 1fr;
+    grid-template-areas: 
+    "hd hd hd"
+    "md rt sd";
+    
+}
+header{
+    background-color: rgba(135, 206, 235, 0.1) ;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    grid-area: hd;
+
+}
+
+header div:first-child{
+    display: block;
+    width: 400px;
+    height: 200px;;
+    text-align: center;
+    margin-top: 100px;
+}   
+
+#login-form{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
+
+.weather{
+    width: 300px;
+    height: 200px;;
+    text-align: center;
+
+
+}
+
+.weather span{
+    display: block;
+    line-height: 200%;
+    font-size: 24px;
+}
+
+.clock{
+    display: block;
+    width: 300px;
+    height: 200px;;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+
+   
+}
+
+
+main{
+    width: 500px;
+    height: 100%;
+    grid-area: md;
+    margin-left: 20px;
+}
+
+#routine{
+    background-color: rgba(135, 206, 235, 0.1);
+    width: stretch;
+    height: stretch;
+    grid-area: rt;
+}
+
+
+aside{
+    width: stretch;
+    height: 100%;
+    grid-area: sd;
+    margin-right: 20px;
+}
+#calendar{
+    right:  100px;
+    width: stretch;
+    height: 800px;
+   
+}
+
+
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:80%;
+    }
+
+.hidden {
+    display: none;
+}
+
+input[name=todotext]{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    opacity: 0.8;
+    border: 0;
+    font-size: 12pt;
+
+}
+
+ul{
+    text-align: right;
+}
+
+
+li {
+    list-style: none;
+    line-height: 30px;
+    margin: 10px;
+}
+
+li button{
+    background-color: rgba(135, 206, 235, 0.0);
+    margin-left: 20px;
+    border: 0;
+}
