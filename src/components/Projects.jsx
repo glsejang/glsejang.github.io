@@ -11,14 +11,14 @@ export function Projects({setModal}){
                 <div className="project">
                     <ul>
                         <li onClick={()=> setModal('p1')}>
-                            <h3>Project 1: </h3>
+                            <h3 >Project 1: </h3>
                             <span> Second Faction</span>
                             <span> ... </span>
                             <span> 배포 중</span>
 
                         </li>
-                        <li>
-                            <h3>Project 2: </h3>
+                        <li onClick={()=> setModal('p2')}>
+                            <h3 >Project 2: </h3>
                             <span> Beef Patty Only</span>
                             <span> ... </span>
                             <span> </span>
