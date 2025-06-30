@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { Tmi } from "../tmi"
-import { Propject1 } from "./Modal_project"
+import { Project1 } from "./Project1"
 export function Modal({modal, setModal}){
     
     const [myTmi, setMyTmi] = useState('')
@@ -20,7 +20,7 @@ export function Modal({modal, setModal}){
                 {modal === 'feat' && <FeatModal/>}
                 {modal === 'ani' && <AniModal/>}
 
-                {modal === 'p1' && <Propject1/>}
+                {modal === 'p1' && <Project1/>}
             </div>
         
 

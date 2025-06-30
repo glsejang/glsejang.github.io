@@ -149,3 +149,22 @@ body{
     width: 20%;
   }
 }
+
+
+.inProject{
+  background-color: #444444;
+  color: white;
+  flex-direction: column;
+  
+  .topBox{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .botBox{
+    width: 100%;
+    height: 80%;
+  }
+}

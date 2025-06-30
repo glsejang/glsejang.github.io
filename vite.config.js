@@ -5,5 +5,7 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     include: ['@use-gesture/react']
-  }
+  }.plugins,
+  base: '/'
+
 })
