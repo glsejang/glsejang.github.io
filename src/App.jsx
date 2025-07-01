@@ -13,19 +13,18 @@ function App() {
   const [dragY, setDragY] = useState(0)
   const [dragX, setDragX] = useState(0)
 
-  const bind = useDrag(({ movement: [mx, my], last})=>{
-    setDragY(my > 0 ? my:0)
+  const bind = useDrag(({ movement: [mx, my], last }) => {
+  setDragY(my)
 
-    if (!back && my > 150 && last){
-      setBack(1)
-      setDragY(0)
-    }
-    if (last && my < 150){
-      setDragY(0)
-    }
+  if (last && Math.abs(my) > 150) {
+    setBack(prev => (prev === 0 ? 1 : 0))
+    setDragY(0)
+  }
 
-
-  }, { axis: 'y'})
+  if (last && Math.abs(my) <= 150) {
+    setDragY(0)
+  }
+}, { axis: 'y' })
 
   const close = ()=> {setBack(0)}
 

@@ -19,6 +19,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  user-select: none;
 }
 
 .wrap{
@@ -27,6 +28,8 @@ body{
   height: 500px;
   display: flex;
   background-color:$primary-bg;
+  transition:  transform 0.3s ease;
+  will-change: transform;
   
 }
 
