@@ -30,8 +30,8 @@ function App() {
 
   return (
     <>
-      <div className='wrap'{...bind()}   style={{
-          transform: `translateY(${dragY}px)`,
+      <div className='wrap '{...bind()}   style={{
+          transform: `translateY(${dragY}px)`            
         }}>
         {back === 1 ? <Back/>: null}
 

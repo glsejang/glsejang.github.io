@@ -7,7 +7,7 @@ export function Projects({setModal}){
 
     return(
         <>
-            <div className=" projectContainer">
+            <div className=" projectContainer ">
                 <div className="project">
                     <ul>
                         <li onClick={()=> setModal('p1')}>
@@ -41,9 +41,11 @@ export function Projects({setModal}){
                         <h2 onClick={()=>
                             setModal('ani')
                         }>Animations</h2>
+
                         <h2 onClick={()=>
                             setModal('feat')
                         }> Features</h2>
+                        
                         <h2 onClick={()=>
                             setModal('tmi')
                         }>TMI</h2>

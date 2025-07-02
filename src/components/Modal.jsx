@@ -35,12 +35,12 @@ export function Modal({modal, setModal}){
 function TmiModal({myTmi}){
     return(
         <div className="modal">
-            <div className="tmiBox">
-                 <h1>TMI</h1>
-                 <p>{myTmi}</p>
-                 
-            </div>
-        </div> 
+            <div className="inModalTop"><h1>TMI</h1></div>
+            <div className="inModalBot">
+                 <p className="tmi">{myTmi}</p>
+            </div>                    
+        </div>
+        
     )
 }
 
@@ -48,9 +48,10 @@ function TmiModal({myTmi}){
 function FeatModal(){
     return(
         <div className="modal">
-            <div className="featBox">
-                 여긴 기능들 모음이다
-            </div>
+           <div className="inModalTop"><h1>Features</h1></div>
+            <div className="inModalBot">
+                 <p>여긴 기능들 모음이다</p>
+            </div>                  
         </div> 
     )
 }
@@ -59,9 +60,11 @@ function FeatModal(){
 function AniModal(){
     return(
         <div className="modal">
-            <div className="aniBox">
-                 여긴 애니메이션이다 히히
-            </div>
+            <div className="inModalTop"><h1>Animations</h1></div>
+            <div className="inModalBot">
+                <p><a href="https://codepen.io/glsejang-the-reactor">우주의 별</a></p>
+                <p><a href="://codepen.io/glsejang-the-reactor">...</a></p>
+            </div>  
         </div> 
     )
 }

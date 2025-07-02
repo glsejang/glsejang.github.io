@@ -25,7 +25,7 @@ export function Profile(){
                 <div className="link">
                     <a href="glsejang@naver.com"target="_blank"rel="noopener noreferrer" >이메일 </a>
                     <a href="https://github.com/glsejang"target="_blank"rel="noopener noreferrer" >깃허브 </a>
-                    <a href="https://github.com/glsejang"target="_blank"rel="noopener noreferrer" >블로그 </a>
+                    <a href="https://grroooot.tistory.com/"target="_blank"rel="noopener noreferrer" >블로그 </a>
                 </div>
                 
                 
