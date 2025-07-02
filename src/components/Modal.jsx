@@ -58,7 +58,7 @@ function FeatModal(){
                 </div>
                   
                 <div className="pinter">
-                    <h2><a href="https://kr.pinterest.com/glsejang2046/clones/" target="_blank" rel="noopener noreferrer">Pinterest</a></h2>
+                    <h2><a href="https://kr.pinterest.com/glsejang/clones/" target="_blank" rel="noopener noreferrer">Pinterest</a></h2>
                     <p>영감을 준 UI 모음 </p>  
                     <p>좋은 디자인 보면 바로 따라 하고 싶어집니다.</p>     
                 </div>         
@@ -82,7 +82,7 @@ function AniModal(){
                 </div>
                   
                 <div className="pinter">
-                    <h2><a href="https://kr.pinterest.com/glsejang2046/clones/" target="_blank" rel="noopener noreferrer">Pinterest</a></h2>
+                    <h2><a href="https://kr.pinterest.com/glsejang/clones/" target="_blank" rel="noopener noreferrer">Pinterest</a></h2>
                     <h4>영감을 준 UI 모음 </h4>  
                     <p>좋은 디자인 보면 바로 따라 하고 싶어집니다.</p>     
                 </div>         
