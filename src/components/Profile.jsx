@@ -8,8 +8,8 @@ export function Profile(){
             <div className="profileContainer">
                 <div className="name">
                     <h2>장은우</h2>
-                    <p>우리집에 고양이 있다. <br />
-                        곧 두마리로 만들테다.
+                    <p>고양이랑 코딩합니다. <br />
+                        둘 다 말을 안 들어요.
                     </p>
                     <a href="tel:01071885246">010-7188-5246</a>
                 </div>

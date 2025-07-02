@@ -40,12 +40,12 @@ export function Projects({setModal}){
                     <div className="etc">
                         <h2 onClick={()=>
                             setModal('ani')
-                        }>Animations</h2>
+                        }>Animations / References</h2>
 
-                        <h2 onClick={()=>
+                        {/* <h2 onClick={()=>
                             setModal('feat')
-                        }> Features</h2>
-                        
+                        }> References</h2>
+                         */}
                         <h2 onClick={()=>
                             setModal('tmi')
                         }>TMI</h2>
