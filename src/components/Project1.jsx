@@ -58,3 +58,36 @@ export function Project2(){
         </>
     )
 }
+
+export function Project3(){
+    return( 
+        <>
+            <div className="inProject modal p3">
+                <div className="topBox">
+                    <p>프로젝트:</p><h1> 날씨정보 기반 식물 관리 웹</h1> 
+                </div>
+                <div className="botBox">
+                    <div className="botLeft">
+                        <div className="img_box" style={{display: 'flex'}}>
+                        <img style={{width:'50%'}} src="/images/weather.png" alt="" />
+                        <img style={{width:'50%'}} src="/images/weather2.png" alt="" />
+                        </div>
+                        <p><a href="https://glsejang.github.io/weather/" target="_blank" rel="noopener noreferrer" >링크</a></p>
+                    </div>
+                    <div className="botRight">
+                        <span className="stackBox">Stacks: 리액트 | 자바스크립트 ㅣ 부트스트랩</span>
+                        <p> 프로젝트로 가장 많이 하는 날씨 어플, todolist 앱을 하나로 합치고, <br />
+                            식물 관리 기능을 넣었습니다. 어머니와 이모, 지인 분들이 사용하기 쉽도록, 모바일로만 디자인 하였고 <br />
+                            최대한 심플하게 하기 위해 부트스트랩을 이용했습니다.
+                            <br />
+                            기능 구현은, 사용자로 부터, 키우는 식물과 위치 정보를 입력 받고, api를 이용 일주일간의 날씨 정보를 받은 뒤에 <br />
+                            이것을 프롬프트로 만들어서 제미나이에 요청, 응답을 다시 파싱해서 정보화 하고 카드형 todolist로 생성합니다.   
+                        </p>
+
+                    </div>
+                    <p></p>
+                </div>
+            </div>
+        </>
+    )
+}

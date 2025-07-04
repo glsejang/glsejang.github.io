@@ -23,11 +23,11 @@ export function Projects({setModal}){
                             <span> ... </span>
                             <span> </span>
                         </li>
-                        <li>
+                        <li onClick={()=> setModal('p3')}>
                             <h3>Project 3: </h3>
-                            <span> 휘게문고</span>
+                            <span> Weather WebApp</span>
                             <span> ... </span>
-                            <span> </span>
+                            <span> 배포 중 </span>
                         </li>
                         <li>
                             <h3>Project 4: </h3>
@@ -42,10 +42,7 @@ export function Projects({setModal}){
                             setModal('ani')
                         }>Animations / References</h2>
 
-                        {/* <h2 onClick={()=>
-                            setModal('feat')
-                        }> References</h2>
-                         */}
+                        
                         <h2 onClick={()=>
                             setModal('tmi')
                         }>TMI</h2>
